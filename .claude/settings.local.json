@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ffprobe -v error -select_streams v:0 -show_entries stream=width,height,duration,r_frame_rate,nb_frames -of default \"/Users/christianturnbull/Animated Websites/Juicer Kling.mp4\")",
+      "Bash(brew list)",
+      "Read(//usr/local/bin/**)",
+      "Bash(ls -la \"/Users/christianturnbull/Animated Websites/\"*.mp4)",
+      "Bash(chmod +x /tmp/ff/ffmpeg /tmp/ffp/ffprobe)",
+      "Bash(sudo mv /tmp/ff/ffmpeg /usr/local/bin/ffmpeg)",
+      "Bash(sudo mv /tmp/ffp/ffprobe /usr/local/bin/ffprobe)",
+      "Bash(ffmpeg -version)",
+      "Bash(ffprobe -version)"
+    ]
+  }
+}
