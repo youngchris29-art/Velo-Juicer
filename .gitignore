@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# Source video files (large assets — keep out of git)
+*.mp4
+*.mov
+*.avi
+
+# Node (if any project uses it)
+node_modules/
